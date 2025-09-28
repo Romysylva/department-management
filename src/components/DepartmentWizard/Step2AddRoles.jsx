@@ -195,13 +195,6 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
                   >
                     ADD
                   </Button>
-                  {/* <Button
-                    size="sm"
-                    variant="destructive"
-                    onClick={() => handleDeleteRole(role.id)}
-                  >
-                    <Trash2 className="w-4 h-4" />
-                  </Button> */}
                 </div>
               </div>
             ))}
