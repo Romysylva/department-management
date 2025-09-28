@@ -1,0 +1,345 @@
+{
+  "departments": [
+    {
+      "id": "1",
+      "name": "Product",
+      "description": "Product department is responsible for defining the vision, strategy, and roadmap of the company's digital products. The team collaborates closely with engineering, design, and customer-facing departments to ensure product-market fit and long-term value.",
+      "manager": "Sarah Chen",
+      "members": 0,
+      "budget": 1250000,
+      "location": "Building A, Floor 3",
+      "email": "product@company.com",
+      "phone": "+1 (555) 234-5678",
+      "status": "active",
+      "established": "2023-01-15",
+      "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop",
+      "roles": [
+        {
+          "id": "1",
+          "name": "Product Manager",
+          "department": "Product"
+        },
+        {
+          "id": "2",
+          "name": "Product Designer",
+          "department": "Product"
+        },
+        {
+          "id": "3",
+          "name": "UX Researcher",
+          "department": "Product"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Engineering",
+      "description": "Builds and maintains software products, ensuring performance, scalability, and technical excellence across all digital platforms and infrastructure.",
+      "manager": "Michael Rodriguez",
+      "members": 4,
+      "budget": 2800000,
+      "location": "Building B, Floor 2-3",
+      "email": "engineering@company.com",
+      "phone": "+1 (555) 345-6789",
+      "status": "active",
+      "established": "2022-03-10",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&h=300&fit=crop",
+      "roles": [
+        {
+          "id": "4",
+          "name": "Engineering Manager",
+          "department": "Engineering"
+        },
+        {
+          "id": "5",
+          "name": "Software Engineer",
+          "department": "Engineering"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Accounting",
+      "description": "Handles financial records, invoicing, budgeting, and compliance to ensure the company's financial health and regulatory requirements.",
+      "manager": "Jennifer Park",
+      "members": 24,
+      "budget": 950000,
+      "location": "Building A, Floor 1",
+      "email": "accounting@company.com",
+      "phone": "+1 (555) 456-7890",
+      "status": "active",
+      "established": "2022-01-05",
+      "image": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=400&h=300&fit=crop",
+      "roles": [
+        {
+          "id": "6",
+          "name": "Finance Manager",
+          "department": "Accounting"
+        },
+        {
+          "id": "7",
+          "name": "Accountant",
+          "department": "Accounting"
+        },
+        {
+          "id": "8",
+          "name": "Billing Specialist",
+          "department": "Accounting"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Marketing",
+      "description": "Drives brand awareness, customer engagement, and lead generation through strategic campaigns and market analysis.",
+      "manager": "David Thompson",
+      "members": 4,
+      "budget": 1100000,
+      "location": "Building C, Floor 2",
+      "email": "marketing@company.com",
+      "phone": "+1 (555) 567-8901",
+      "status": "active",
+      "established": "2023-05-20",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop",
+      "roles": [
+        {
+          "id": "9",
+          "name": "Marketing Manager",
+          "department": "Marketing"
+        },
+        {
+          "id": "10",
+          "name": "Content Writer",
+          "department": "Marketing"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Support",
+      "description": "Provides timely assistance to customers and internal teams, resolving issues and ensuring a positive experience with company products and services.",
+      "manager": "Lisa Wilson",
+      "members": 12,
+      "budget": 680000,
+      "location": "Building B, Floor 1",
+      "email": "support@company.com",
+      "phone": "+1 (555) 678-9012",
+      "status": "active",
+      "established": "2023-02-28",
+      "image": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=400&h=300&fit=crop",
+      "roles": [
+        {
+          "id": "11",
+          "name": "Support Manager",
+          "department": "Support"
+        },
+        {
+          "id": "12",
+          "name": "Customer Support Specialist",
+          "department": "Support"
+        }
+      ]
+    },
+    {
+      "id": "0475",
+      "name": "new department",
+      "description": "deevcxxcvv",
+      "roles": [
+        "UX Researcher"
+      ]
+    },
+    {
+      "id": "5b0b",
+      "name": "Tect",
+      "description": "this is a new department",
+      "roles": [
+        "Engineering Manager"
+      ]
+    },
+    {
+      "id": "5694",
+      "name": "ggregrg",
+      "description": "fbbfbfbdfbdb",
+      "roles": [
+        "Product Manager"
+      ]
+    },
+    {
+      "id": "6857",
+      "name": "Mobile-first approach",
+      "description": "  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores recusandae nisi animi fuga voluptatum omnis? Quis, modi voluptates nemo exercitationem nostrum quae accusamus animi aliquid sint harum ab sunt fugit nulla aperiam aliquam placeat fugiat perferendis, ducimus maxime repellendus natus! Eveniet rem, voluptatem sapiente amet dolore adipisci ad doloremque perspiciatis natus culpa eaque esse, nobis id? Maiores corrupti amet illum alias at voluptatum, eaque qui sequi consequuntur quibus",
+      "roles": [
+        "QA Engineer",
+        "DevOps Engineer",
+        "Software Engineer"
+      ]
+    },
+    {
+      "id": "e291",
+      "name": "still production ",
+      "description": "some description here",
+      "roles": [
+        "Marketing Manager",
+        "tutor product"
+      ]
+    },
+    {
+      "id": "614b",
+      "name": "sddssf",
+      "description": "vdvssvvs",
+      "roles": [
+        "Customer Support Specialist"
+      ]
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Product Manager",
+      "department": "Product",
+      "description": "Defines product strategy and roadmap"
+    },
+    {
+      "id": "2",
+      "name": "Product Designer",
+      "department": "Product",
+      "description": "Creates user-centered design solutions"
+    },
+    {
+      "id": "3",
+      "name": "UX Researcher",
+      "department": "Product",
+      "description": "Conducts user research and testing"
+    },
+    {
+      "id": "4",
+      "name": "Engineering Manager",
+      "department": "Engineering",
+      "description": "Leads engineering team and technical decisions"
+    },
+    {
+      "id": "5",
+      "name": "Software Engineer",
+      "department": "Engineering",
+      "description": "Develops and maintains software applications"
+    },
+    {
+      "id": "6",
+      "name": "QA Engineer",
+      "department": "Engineering",
+      "description": "Ensures software quality through testing"
+    },
+    {
+      "id": "7",
+      "name": "DevOps Engineer",
+      "department": "Engineering",
+      "description": "Manages deployment and infrastructure"
+    },
+    {
+      "id": "8",
+      "name": "Finance Manager",
+      "department": "Accounting",
+      "description": "Oversees financial planning and analysis"
+    },
+    {
+      "id": "9",
+      "name": "Accountant",
+      "department": "Accounting",
+      "description": "Handles day-to-day accounting tasks"
+    },
+    {
+      "id": "10",
+      "name": "Billing Specialist",
+      "department": "Accounting",
+      "description": "Manages invoicing and billing processes"
+    },
+    {
+      "id": "11",
+      "name": "Marketing Manager",
+      "department": "Marketing",
+      "description": "Develops marketing strategies and campaigns"
+    },
+    {
+      "id": "12",
+      "name": "Content Writer",
+      "department": "Marketing",
+      "description": "Creates engaging content for marketing"
+    },
+    {
+      "id": "13",
+      "name": "Support Manager",
+      "department": "Support",
+      "description": "Leads customer support operations"
+    },
+    {
+      "id": "14",
+      "name": "Customer Support Specialist",
+      "department": "Support",
+      "description": "Provides direct customer assistance"
+    },
+    {
+      "id": "1759037518659",
+      "name": "Accountant",
+      "department": "new department",
+      "description": "Newly added role"
+    },
+    {
+      "id": "1759037623885",
+      "name": "tutor product",
+      "department": "new department",
+      "description": "Newly added role"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "department": "1",
+      "position": "Product Manager",
+      "email": "john.smith@company.com",
+      "phone": "+1 (555) 111-2222",
+      "joinDate": "2023-01-15",
+      "status": "active"
+    },
+    {
+      "id": "2",
+      "name": "Emily Davis",
+      "department": "2",
+      "position": "Senior Software Engineer",
+      "email": "emily.davis@company.com",
+      "phone": "+1 (555) 222-3333",
+      "joinDate": "2022-05-20",
+      "status": "active"
+    },
+    {
+      "id": "3",
+      "name": "Robert Johnson",
+      "department": "3",
+      "position": "Senior Accountant",
+      "email": "robert.johnson@company.com",
+      "phone": "+1 (555) 333-4444",
+      "joinDate": "2022-08-10",
+      "status": "active"
+    },
+    {
+      "id": "4",
+      "name": "Maria Garcia",
+      "department": "4",
+      "position": "Marketing Specialist",
+      "email": "maria.garcia@company.com",
+      "phone": "+1 (555) 444-5555",
+      "joinDate": "2023-03-01",
+      "status": "active"
+    },
+    {
+      "id": "5",
+      "name": "James Wilson",
+      "department": "5",
+      "position": "Customer Support Lead",
+      "email": "james.wilson@company.com",
+      "phone": "+1 (555) 555-6666",
+      "joinDate": "2023-02-28",
+      "status": "active"
+    }
+  ]
+}
