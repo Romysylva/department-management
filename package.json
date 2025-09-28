@@ -8,9 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "build:dev": "vite build --mode development",
-    "preview": "vite preview",
-    "server": "json-server --watch db.json --port 8000",
-    "start": "json-server --watch db.json --port $PORT"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
