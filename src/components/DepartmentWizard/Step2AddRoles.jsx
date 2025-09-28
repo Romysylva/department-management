@@ -106,19 +106,6 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
     <div className="space-y-6 bg-accent-foreground text-black min-h-screen">
       <h2 className="text-xl font-semibold text-foreground mb-6 ">Add Roles</h2>
 
-      {/* Add new role to DB */}
-      {/* <div className="flex gap-2 items-center">
-        <Input
-          placeholder="New Role Name"
-          value={newRoleName}
-          onChange={(e) => setNewRoleName(e.target.value)}
-        />
-        <Button onClick={handleAddRoleToDB}>
-          <Plus className="w-4 h-4 mr-1" /> Add
-        </Button>
-      </div> */}
-
-      {/* Search and Filter */}
       <div className="flex justify-between items-center">
         <div>
           <div className="relative flex-1 mb-3 w-60">
@@ -221,7 +208,6 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
                   <span>On Department(s)</span>
                   <ArrowDownIcon size={15} />
                 </span>
-                {/* <span></span> */}
               </div>
             </div>
 
