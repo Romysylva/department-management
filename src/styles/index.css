@@ -27,25 +27,25 @@
   --color-secondary: #f3f4f6; /* Light gray backgrounds */
   --color-secondary-foreground: #374151;
 
-  --color-muted: #f9fafb; /* Very light gray */
-  --color-muted-foreground: #6b7280; /* Medium gray text */
+  --color-muted: #f9fafb;
+  --color-muted-foreground: #6b7280;
 
   --color-accent: #4f46e5;
   --color-accent-foreground: #ffffff;
 
-  --color-destructive: #ef4444; /* Red for delete actions */
+  --color-destructive: #ef4444;
   --color-destructive-foreground: #ffffff;
 
-  --color-border: #e5e7eb; /* Light gray borders */
-  --color-input: #f9fafb; /* Input backgrounds */
-  --color-ring: #4f46e5; /* Focus ring color */
+  --color-border: #e5e7eb;
+  --color-input: #f9fafb;
+  --color-ring: #4f46e5;
 
   /* Custom design tokens from Figma */
-  --color-step-active: #4f46e5; /* Blue for active/current step */
-  --color-step-completed: #10b981; /* Green for completed steps */
-  --color-step-inactive: #d1d5db; /* Gray for inactive steps */
-  --color-table-header: #f9fafb; /* Table header background */
-  --color-table-border: #e5e7eb; /* Table borders */
+  --color-step-active: #4f46e5;
+  --color-step-completed: #10b981;
+  --color-step-inactive: #d1d5db;
+  --color-table-header: #f9fafb;
+  --color-table-border: #e5e7eb;
 
   /* Button colors matching Figma */
   --color-button-primary: #4f46e5;
@@ -100,7 +100,7 @@
 
     --color-border: #134155;
     --color-input: #1e293b;
-    --color-ring: #6366f1;
+    --color-ring: #fff1;
 
     /* Dark mode custom tokens */
     --color-step-active: #6366f1;

@@ -6,7 +6,9 @@ import { Step2AddRoles } from "./Step2AddRoles";
 import { Step3Confirmation } from "./Step3Confirmation";
 import { useToast } from "../../hooks/use-toast";
 import { apiclient } from "../../services/api";
-import { ButtonLoader } from "@components/ui/Loader";
+import { Input } from "../ui/input";
+import { Label } from "../ui/label";
+import { Textarea } from "../ui/textarea";
 
 const steps = [
   { number: 1, title: "Name & Description" },
@@ -89,7 +91,7 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
   };
 
   return (
-    <div className="fixed inset-0 bg-white z-50 flex flex-col h-screen border- overflow-hidden sm:mx">
+    <div className="fixed inset-0 bg-white z-50 flex flex-col h-screen">
       {/* Header */}
       <div className="flex items-center justify-between px-6 sm:px-8 py-6 border-gray-200 bg-white flex-shrink-0">
         <h1 className="text-xl sm:text-2xl font-semibold text-gray-900 sm:mx-22">
@@ -152,10 +154,10 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
       </div>
 
       {/* Main Content Area - Scrollable */}
-      <div className="flex-1 overflow-y-auto">
+      <div className="flex-1 overflow-y-auto hide-scrollbar">
         <div className="h-full flex flex-col">
           <div className="flex-1 px-4 sm:px-8 py-6 sm:py-8">
-            <div className="sm:min-w-6xl sm:mx-18 ">
+            <div className="sm:mx-18 sm:min-w-6xl">
               {currentStep === 1 && (
                 <div className="max-w-2xl ">
                   <h2 className="text-xl font-semibold text-gray-900 mb-8 text-center sm:text-left">
@@ -165,10 +167,10 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
                   <div className="space-y-6">
                     {/* Department Name */}
                     <div>
-                      <label className="block text-sm text-gray-600 mb-2">
+                      <Label className="block text-sm text-gray-600 mb-2">
                         Department Name
-                      </label>
-                      <input
+                      </Label>
+                      <Input
                         type="text"
                         placeholder="Department Name"
                         value={formData.name}
@@ -181,10 +183,10 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
 
                     {/* Department Info */}
                     <div>
-                      <label className="block text-sm text-gray-600 mb-2">
+                      <Label className="block text-sm text-gray-600 mb-2">
                         Department Info
-                      </label>
-                      <textarea
+                      </Label>
+                      <Textarea
                         placeholder="Department Info"
                         value={formData.description}
                         onChange={(e) =>
@@ -224,7 +226,7 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
               )}
 
               {currentStep === 2 && (
-                <div className="sm:min-w-6xl ">
+                <div className=" overflow-x-clip">
                   <Step2AddRoles
                     selectedRoles={formData.roles}
                     onUpdate={updateStep2Data}

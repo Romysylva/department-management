@@ -103,12 +103,12 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
   }
 
   return (
-    <div className="space-y-6 bg-accent-foreground text-black min-h-screen">
+    <div className="space-y-6 bg-accent-foreground  text-black min-h-screen">
       <h2 className="text-xl font-semibold text-foreground mb-6 ">Add Roles</h2>
 
       <div className="flex justify-between items-center">
         <div>
-          <div className="relative flex-1 mb-3 w-60">
+          <div className="relative flex-1 mb-3 sm:w-60 w-40">
             <Search className="absolute left-3 top-1/2 transform -translate-y-1/2  w-4 h-4  " />
             <Input
               placeholder="Search..."
@@ -164,7 +164,7 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
             </div>
           </div>
 
-          <div className="border border-t-0 sm:min-h-200 md:overflow-y-auto ">
+          <div className="border border-t-0 sm:min-h-200 overflow-y-auto ">
             {filteredRoles.map((role) => (
               <div
                 key={role.id}
