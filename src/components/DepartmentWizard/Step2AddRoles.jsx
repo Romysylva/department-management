@@ -42,34 +42,6 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
     fetchRoles();
   }, []);
 
-  // const handleAddRoleToDB = async () => {
-  //   if (!newRoleName.trim()) return;
-
-  //   const newRole = {
-  // id: Date.now().toString(),
-  //     name: newRoleName,
-  //     department: departmentName || "Unassigned",
-  //     description: "Newly added role",
-  //   };
-
-  //   try {
-  //     const res = await Apiclient.post("/roles", newRole);
-  //     setRoles((prev) => [...prev, res.data]);
-  //     setNewRoleName("");
-  //   } catch (error) {
-  //     console.error("Failed to add role:", error);
-  //   }
-  // };
-
-  // const handleDeleteRole = async (id) => {
-  //   try {
-  //     await Apiclient.delete(`/roles/${id}`);
-  //     setRoles((prev) => prev.filter((r) => r.id !== id));
-  //   } catch (error) {
-  //     console.error("Failed to delete role:", error);
-  //   }
-  // };
-
   const filteredRoles = roles.filter((role) => {
     const matchesSearch = role.name
       .toLowerCase()
@@ -241,20 +213,6 @@ export const Step2AddRoles = ({ selectedRoles, onUpdate, departmentName }) => {
                 </div>
               ) : (
                 <>
-                  {/* <div className="bg-gray-50 rounded-t-lg">
-                <div className="grid grid-cols-3 gap-4 p-3 text-sm font-medium text-black">
-                  <span className="flex gap-1 items-center">
-                    Name <ArrowDownIcon size={15} />
-                  </span>
-
-                  <span className="flex gap-0.5 items-center w-2xs">
-                    <span>On Department(s)</span>
-                    <ArrowDownIcon size={15} />
-                  </span>
-                  <span></span>
-                </div>
-              </div> */}
-
                   <div className="border border-t-0 rounded-b-lg text-black">
                     {selectedRoles.map((roleName, index) => (
                       <div
