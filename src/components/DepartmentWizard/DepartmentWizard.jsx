@@ -226,7 +226,7 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
               )}
 
               {currentStep === 2 && (
-                <div className=" overflow-x-clip ">
+                <div>
                   <Step2AddRoles
                     selectedRoles={formData.roles}
                     onUpdate={updateStep2Data}
