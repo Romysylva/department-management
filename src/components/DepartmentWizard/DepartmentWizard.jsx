@@ -108,9 +108,9 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
 
       <div className="border-2 border-gray-50 mb-4 -mt-6 font-bold opacity-10 sm:mx-30"></div>
       {/* Step Indicator */}
-      <div className="px-4 sm:px-8 py-4 sm:py-6 flex-shrink-0 sm:mx-20">
+      <div className="px-4 sm:px-8 py-4 sm:py-6 flex-shrink-0 sm:mx-20 ">
         <div className="flex items-center justify-center ">
-          <div className="flex items-center space-x-4 sm:space-x-8 overflow-x-auto">
+          <div className="flex items-center space-x-4 sm:space-x-8 ">
             {steps.map((step, index) => (
               <div key={step.number} className="flex items-center">
                 <div className="sm:flex items-center">
@@ -226,7 +226,7 @@ export const DepartmentWizard = ({ onClose, onSuccess }) => {
               )}
 
               {currentStep === 2 && (
-                <div className=" overflow-x-clip">
+                <div className=" overflow-x-clip ">
                   <Step2AddRoles
                     selectedRoles={formData.roles}
                     onUpdate={updateStep2Data}
